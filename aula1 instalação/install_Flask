@@ -29,3 +29,10 @@ if __name__ == "__main__":
     app.run()
 
 
+3.) Subindo o projeto no servidor local
+
+No arquivo, app.py clicando com o botão direito e clicando em Run 'app' (Pycharm).
+O terminal sera inicial, juntamente com ele o endereço para abrir no navegador, provavelmente será:
+    Running on http://127.0.0.1:5000
+
+    Click neste link e abrirá no navegador.
