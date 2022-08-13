@@ -1,0 +1,31 @@
+1.) Instalando o Flask
+
+    Uma boa prática para a instalação é criar um ambiente virtual.
+    No Windows:
+        ⏭ python -m venv venv
+
+    Depois ative o ambiente virtual:
+        ⏭ venv/Scripts/activate
+
+        Volte a raiz do projeto:
+            cd ..
+            cd ..
+
+    Agora sim, vamos instalar o Flask.
+
+        pip install Flask
+
+2.) Usando o Flask
+
+    from flask import Flask
+
+    app = Flask(__name__)
+
+    @app.route('/')
+    def index():
+    return "Index"
+
+    if __name__ == "__main__":
+        app.run()
+
+
